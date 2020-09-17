@@ -30,7 +30,8 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
-  color: #6670FD;
+  /* color: #6670FD; */
+  color: red;
 }
 
 .u-l-t2 {
