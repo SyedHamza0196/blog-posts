@@ -5,7 +5,7 @@
 
 .upper-container {
   background: #F4F5FF;
-  min-width: 947px !important;
+  min-width: 785px !important;
 }
 
 .upper {
@@ -41,7 +41,6 @@
   font-size: 36px;
   line-height: 110%;
   color: #141633;
-  color: red;
 }
 
 .u-l-t3 {
@@ -279,9 +278,17 @@
     display: none;
   }
 
-  .l-right {
+  /* .l-right {
     width: 100%;
     display: grid;
     grid-template-rows: 1fr;
+  } */
+
+  .upper-container {
+    min-width: 414px;
+  }
+
+  .lower-container {
+    min-width: 414px;
   }
 }
