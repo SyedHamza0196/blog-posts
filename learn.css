@@ -221,7 +221,7 @@
   margin: 0 15px 0 15px;
 }
 
-@media (max-width: 1124px) {
+@media screen and (max-width: 1124px) {
   .blogs {
     flex-direction: column-reverse;
   }
@@ -240,6 +240,13 @@
 
   .u-l-t3 {
     max-width: unset;
+  }
+
+  .text{
+    text-align: center;
+  }
+  .blogs{
+    text-align: center;
   }
 }
 
@@ -261,7 +268,7 @@
   box-shadow: #141633;
 }
 
-@media (max-width: 414px) {
+@media screen and (max-width: 414px) {
   .hamza {
     display: unset;
     position: relative;
@@ -276,7 +283,6 @@
   }
 
   .announcement {
-    width: 70%;
+    /* width: 70%; */
   }
-
 }
