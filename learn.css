@@ -220,4 +220,58 @@
   .blogs {
     flex-direction: column-reverse;
   }
+  .upper {
+    flex-direction: column-reverse;
+  }
+
+  .u-left {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .u-right {
+    margin: 0 auto;
+  }
+
+  .u-l-t3 {
+    max-width: unset;
+  }
+}
+
+.hamza {
+  display: none;
+}
+
+.hamza form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hamza form input {
+  border: 1px solid #E3E5FC;
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: #141633;
+}
+
+@media (max-width: 414px) {
+  .hamza {
+    display: unset;
+    position: relative;
+    bottom: 70px;
+  }
+  .l-left {
+    display: none;
+  }
+
+  .l-right {
+    width: 100%;
+  }
+
+  .announcement {
+    width: 70%;
+  }
+
 }
