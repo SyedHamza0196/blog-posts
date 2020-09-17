@@ -1,19 +1,18 @@
 .upper-container {
   background: #F4F5FF;
   min-width: 947px !important;
-  border: 1px solid pink;
 }
 
 .upper {
-  border: 1px solid black;
   display: flex;
-  padding: 100px 10px;
-  max-width: 1000px;
+  padding: 100px 0;
+  width: 80%;
   margin: 0 auto;
 }
 
 .u-left {
   flex: 0.8;
+  width: 50%;
 }
 
 .text {
@@ -30,6 +29,7 @@
 }
 
 .u-l-t2 {
+  margin-top: 20px;
   font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -45,10 +45,12 @@
   font-size: 16px;
   line-height: 160%;
   color: rgba(20, 22, 51, 0.5);
+  max-width: 450px;
 }
 
 .u-right {
   flex: 1;
+  width: 50%;
 }
 
 .u-right div {
@@ -60,18 +62,21 @@
   border-radius: 10px;
 }
 
+.lower-container {
+  min-width: 947px !important;
+}
+
 .lower {
   position: relative;
   bottom: 80px;
   display: flex;
   padding: 10px;
-  border: 1px solid yellow;
-  max-width: 1000px;
+  width: 82%;
   margin: 0 auto;
 }
 
 .l-left {
-  flex: 1;
+  width: 30%;
 }
 
 .search {
@@ -95,7 +100,7 @@
 
 .search ul {
   list-style: none;
-  padding: 25px 0 0 25px;
+  padding: 25px 0 0 0;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -111,6 +116,8 @@
   font-size: 16px;
   line-height: 19px;
   color: rgba(20, 22, 51, 0.5);
+  width: 60%;
+  margin: 0 auto;
 }
 
 .search-links:hover {
@@ -125,7 +132,7 @@
 }
 
 .l-right {
-  flex: 3;
+  width: 70%;
 }
 
 .blogs-list {
@@ -133,16 +140,30 @@
   padding: 0;
 }
 
+.blogs-list li {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
 .blogs {
   border-radius: 10px;
-  margin: 5px;
-  padding: 40px;
-  display: grid;
-  grid-template-columns: 1fr 0.5fr;
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px 0 20px 20px;
+  display: flex;
+  flex-direction: unset;
   margin-bottom: 30px;
-  background: #FFFFFF;
   border: 1px solid #E3E5FC;
-  min-width: 732px;
+  background: #FFFFFF;
+}
+
+.blog-detail {
+  flex: 0.9;
+}
+
+.blog-image {
+  flex: 1;
 }
 
 .heads {
@@ -170,8 +191,9 @@
 }
 
 .blogfoot-logo {
-  display: inline;
   border-radius: 50%;
+  height: 30px;
+  width: 30px;
 }
 
 .blogfoot-text {
@@ -187,9 +209,15 @@
 }
 
 .image {
-  margin: 10px 10px 10px 0;
+  margin: 10px 10px 10px 0; 
 }
 
 .elipse {
   margin: 0 15px 0 15px;
+}
+
+@media (max-width: 1124px) {
+  .blogs {
+    flex-direction: column-reverse;
+  }
 }
