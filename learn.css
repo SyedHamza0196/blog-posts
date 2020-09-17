@@ -1,3 +1,8 @@
+.main {
+  border: 5px solid black;
+  min-width: 960px;
+}
+
 .upper-container {
   background: #F4F5FF;
   min-width: 947px !important;
