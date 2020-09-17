@@ -269,10 +269,10 @@
   }
 
   .upper-container {
-    min-width: 414px;
+    min-width: 250px;
   }
 
   .lower-container {
-    min-width: 414px;
+    min-width: 250px;
   }
 }
