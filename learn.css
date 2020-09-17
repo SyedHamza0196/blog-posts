@@ -1,6 +1,6 @@
 .main {
   border: 5px solid black;
-  min-width: 414px;
+  /* min-width: 414px; */
 }
 
 .upper-container {
@@ -281,9 +281,7 @@
 
   .l-right {
     width: 100%;
-  }
-
-  .announcement {
-    /* width: 70%; */
+    display: grid;
+    grid-template-rows: 1fr;
   }
 }
