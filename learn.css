@@ -286,5 +286,6 @@ body {
 
   .lower-container {
     /* min-width: 414px; */
+    min-width: unset;
   }
 }
