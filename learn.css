@@ -268,7 +268,7 @@
   }
 
   .hidden-search {
-    /* display: unset; */
+    display: unset;
   }
 
   .lower-container {
@@ -283,7 +283,7 @@
     display: none;
   }
   .l-right {
-    flex: 1;
+    flex: auto;
   }
   .tile {
     flex-direction: column-reverse;
