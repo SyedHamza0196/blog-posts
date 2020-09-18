@@ -71,13 +71,10 @@
   border-radius: 10px;
 }
 
-.lower-container{
-  /* border: 1px solid black; */
-  min-width: 785px !important;
-}
-
 .hidden-search {
   display: none;
+  /* position: relative; */
+  /* bottom: 100px; */
 }
 
 .hidden-search form {
@@ -94,9 +91,14 @@
   box-shadow: #141633;
 }
 
+.lower-container{
+  /* border: 1px solid black; */
+  min-width: 785px !important;
+}
+
 .lower {
   position: relative;
-  bottom: 8px;
+  bottom: 60px;
   /* border: 1px solid black; */
   display: flex;
   padding: 10px 0;
@@ -279,7 +281,7 @@
 
   .upper-container {
     /* min-width: 785px !important; */
-    min-width: 414px;
+    min-width: unset;
   }
 
   .lower-container {
