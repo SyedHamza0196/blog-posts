@@ -7,7 +7,7 @@
 
 .upper-container {
   background: #F4F5FF;
-  min-width: 785px !important;
+  /* min-width: 785px !important; */
 }
 
 .upper {
@@ -88,7 +88,7 @@
 }
 
 .lower-container{
-  min-width: 785px !important;
+  /* min-width: 785px !important; */
 }
 
 .lower {
