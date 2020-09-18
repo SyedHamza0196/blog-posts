@@ -8,7 +8,7 @@
 .upper-container {
   border: 1px solid black;
   background: #F4F5FF;
-  min-width: 785px !important;
+  /* min-width: 785px !important; */
 }
 
 .upper {
@@ -42,7 +42,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  color: red;
+  color: #141633;
 }
 
 .u-l-t3 {
@@ -71,7 +71,7 @@
 
 .lower-container{
   border: 1px solid black;
-  min-width: 785px !important;
+  /* min-width: 785px !important; */
 }
 
 .hidden-search {
@@ -269,10 +269,10 @@
   }
 
   .upper-container {
-    min-width: 250px;
+    /* min-width: 414px; */
   }
 
   .lower-container {
-    min-width: 250px;
+    /* min-width: 414px; */
   }
 }
